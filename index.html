@@ -1,1 +1,128 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Page title shown in window title</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <header>
+        <h1>Burger Online</h1>
+    </header>
+    <section>
+        <h3> Choose your online burger</h3>
+        <div style="display: inline-block;"> 
+            <h4>The Classic</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpY2n2q9O_h4VwIvrDUeMMfPjBbbuLgo6c9w&s" alt="The classic" title="Hamburger 1" style="width: 200px">
+            <p>The classic american hamburger</p>
+            <dl>
+                <dt>Protein:</dt>
+                <dd>Beef</dd>
+                <dt>Sides:</dt>
+                <dd>French fries</dd>
+                <dt>Allergens:</dt>
+                <dd>
+                    <ul>
+                    <li>Lactose</li>
+                    <li>Gluten</li>
+                </ul></dd>
+                <dt>Kcal:</dt>
+                <dd>1500</dd>
+            </dl>
+        </div>
+        <div style="display: inline-block;"> 
+            <h4>The Hot Chicken</h4>
+            <img src="https://shared.cdn.smp.schibsted.com/v2/images/3b3f3422-6303-401b-9a2c-61156e0a3996?fit=crop&h=750&w=1000&s=98eb069a4369c265fff88837f2642e60497d2816" alt="The hot chicken" title="Hamburger 2" style="width: 200px">
+            <p>Spicy and crunchy chicken burger</p>
+            <dl>
+                <dt>Protein:</dt>
+                <dd>Chicken</dd>
+                <dt>Sides:</dt>
+                <dd>Salad</dd>
+                <dt>Allergens:</dt>
+                <dd>
+                    <ul>
+                    <li>Soybean</li>
+                    <li>Gluten</li>
+                </ul></dd>
+                <dt>Kcal:</dt>
+                <dd>1200</dd>
+            </dl>
+        </div>
+        <div style="display: inline-block;"> 
+            <h4>The Veggie</h4>
+            <img src="https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_162416/cf_259/veganburgare.jpg" alt="The veggie" title="Hamburger 3" style="width: 200px">
+            <p>Vegitarian friendly burger</p>
+            <dl>
+                <dt>Protein:</dt>
+                <dd>Quorn</dd>
+                <dt>Sides:</dt>
+                <dd>Bean salad</dd>
+                <dt>Allergens:</dt>
+                <dd>
+                    <ul>
+                    <li>Soybean</li>
+                    <li>Gluten</li>
+                    <li>Lactose</li>
+                </ul></dd>
+                <dt>Kcal:</dt>
+                <dd>600</dd>
+            </dl>
+        </div>
+    </section>
+    <section>
+        <h3> Customer Information</h3>
+        <div>
+            <h4>Delivery information</h4>
+        <p>
+            <label for="fullname">Full name</label><br>
+            <input type="text" id="fullname" name="fn" required="required" placeholder="First and last name">
+        </p>
+        <p>
+            <label for="Street">Street</label><br>
+            <input type="text" id="Address" name="ln" placeholder="Street name">
+        </p>
+        <p>
+            <label for="House number">House</label><br>
+            <input type="number" id="House number" name="ln" placeholder="House number">
+        </p>
+        <p>
+            <label for="Email">E-mail</label><br>
+            <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+        </p></div>
+
+        <div><h4>Payment</h4>
+        <p>
+            <label for="Method">Preferred method:</label><be>
+            <select id="Method" name="Method">
+                <option>Invoice</option>
+                <option selected="selected">Card</option>
+                <option>Klarna</option>
+                <option>Cash</option>
+            </select>
+         </p>
+         <div>
+            <p>
+              <label for="Gender">Gender:</label><br>
+              <input type="radio" id="female" name="Gender" value="Female" required="required">
+              <label for="female">Female</label><br>
+          
+              <input type="radio" id="male" name="Gender" value="Male">
+              <label for="male">Male</label><br>
+          
+              <input type="radio" id="other" name="Gender" value="Other" checked>
+              <label for="other">Other</label>
+            </p>
+          </div>
+    </section>
+    <section> 
+        <button type="Submit">
+            <img src="https://i.pinimg.com/736x/20/c8/bd/20c8bd6c8f4f947a426c63f7ca0c2089.jpg" alt="Submit Order" style="width: 20px; vertical-align: middle;">
+            Send it!
+        </button>
+    </section>
+    <hr>
+    <footer>
+        <h4>&copy; BurgerOnline 2024</h4>
+    </footer>
+   </body>
+</html>
